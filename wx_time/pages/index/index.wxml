@@ -1,0 +1,17 @@
+<view class="timeSet">
+  <slider bindchange="changeWorkTime" value="{{workTime}}" name="slider" activeColor="#E96250" min="0" max="60" step="1" show-value backgroundColor='#666'></slider>
+</view>
+<view class="task_text">
+  <view>请选择一个任务</view>
+  <view class="task_desc">接下来的{{workTime}}分钟，将专注做这件事</view>
+</view> `
+<view class="cate">
+  <view wx:for="{{cateArr}}" wx:key="index" class="cate_item {{num==item.id?'selected':''}}" data-id="{{item.id}}" bindtap='select'>
+    <image src="../../images/{{item.icon}}.png" class="cate_icon"></image>
+    <view class="cate_text">{{item.text}}</view>
+  </view>
+</view>
+<view class="msg_input">
+  <input type="text" class="cate_msg" bindinput="changeLogName" placeholder="给你的任务取个名字吧" auto-focus/>
+</view>
+<view class="start" bindtap='totask'>开始专注</view>

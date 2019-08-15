@@ -1,0 +1,31 @@
+<view class="userinfo">
+  <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="userinfo-btn"> 点击微信授权 </button>
+  <block wx:else>
+    <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </block>
+</view>
+<view class="person-list">
+  <view class="person-line"></view>
+  <view class="list-item">
+    <image class="item-image" src="../../images/personal_favorite.png"></image>
+    <text class="item-text">我的卡片</text>
+  </view>
+  <view class="person-line"></view>
+  <view class="list-item">
+    <image class="item-image" src="../../images/personal_site.png"></image>
+    <text class="item-text" bindtap="myAddress">背景音乐</text>
+  </view>
+  <view class="person-line"></view>
+  <view class="list-item">
+    <image class="item-image" src="../../images/personal_evaluated.png"></image>
+    <text class="item-text">背景颜色</text>
+  </view>
+  <view class="person-line"></view>
+  <view class="list-item">
+    <image class="item-image" src="../../images/personal_customer.png"></image>
+    <text class="item-text">在线客服</text>
+  </view>
+  <view class="person-line"></view>
+</view>
+<view class="separate"></view>

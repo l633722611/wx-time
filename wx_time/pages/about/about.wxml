@@ -1,0 +1,36 @@
+<scroll-view scroll-y="true" scroll-x="false" bindscrolltolower = "onScrolllower">
+  <view>
+    <text class="title">番茄工作法</text>
+  </view>
+  <view class="content">
+    <text space="true">番茄工作法是简单易行的时间管理方法，选定一个待完成的任务，打开番茄钟的倒计时功能；在中途不允许做任何与   这个任务无关的事情。倒计时完成后可以自行选择继续工作还是休息，一般休息5分钟后重新投入工作；可以极大地提高工作效率。</text>
+  </view>
+  <view>
+    <text class="title">使用说明</text>
+  </view>
+  <text class="subtitle">(1)开始界面</text>
+  <view class="content">
+    <text class="zhengwen">(a)开始界面有计时选择器，分布在其下的为任务类型，点下任一个即可触发该事件对应的倒计时进行计时(番茄  钟开始工作)。</text>
+  </view>
+  <view class="content">
+  <text>(b)在buttons的上方有一个自动聚焦的input框，在此可以输入该任务的备注，然后点击下方的button即可进行专注工作。</text>
+  </view>
+  <view class="content">
+    <text>(c)最下方为tabBar，第一个即为开始界面，第二个为记录界面，第三个为设置界面，第四个为关于界面</text>
+  </view>
+  <text class="subtitle">(2)记录界面</text>
+  <view class="content">
+    <text>会显示"时间段+任务名"，时刻提醒自己做了些什么。底部正中央有个"清除记录"的选项，点击后就会将所有记录删除</text>
+  </view>
+  <text class="subtitle">(3)设置界面</text>
+  <view class="content">
+    <text>(a)时间可调:最上方有两个slider，是用来调工作时长与休息时长的。</text>
+  </view>
+  <view class="content">
+    <text>(b)两个switch：一个控制倒计时的时候可以播放音乐，另外一个保证倒计时的时候屏幕不会熄灭。</text>
+  </view>
+  <text class="title">联系方式</text>
+  <view class="content">
+    <text>QQ:1633722611</text>
+  </view>
+</scroll-view>

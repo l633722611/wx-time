@@ -1,0 +1,19 @@
+.title{
+  margin-left: 40rpx;
+  font-size: 40rpx;
+  font-weight: 700;
+  margin-top: 30rpx;
+  letter-spacing: 2px;
+}
+.content{
+  font-size:32rpx;
+  color:#999;
+  margin:0 25rpx;
+}
+.subtitle{
+  margin-left: 40rpx;
+  font-size: 32rpx;
+  font-weight: 700;
+  margin-top: 30rpx;
+  letter-spacing: 2px;
+}

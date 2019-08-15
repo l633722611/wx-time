@@ -1,0 +1,37 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userinfo button{
+  background-color:#01C10D;
+  color:#FFF;
+}
+.userinfo-avatar {
+  width: 200rpx;
+  height: 200rpx;
+  margin: 20rpx;
+  border:5px solid #E96250;
+  border-radius: 50%;
+}
+.userinfo-nickname {
+  color:#e96250;
+  font-size:35rpx;
+  font-weight:bold;
+}
+.login{
+  width:260rpx;
+  font-size:35rpx;
+  margin-top:200rpx;
+  background-color:#E96250;
+  color:#FFF;
+}

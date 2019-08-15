@@ -1,0 +1,37 @@
+.container{
+  padding:80rpx 0;
+  display:flex;
+  justify-content:center;
+}
+.clock{
+  width:350rpx;
+  height:350rpx;
+  line-height:350rpx;
+  text-align:center;
+  border-radius:50%;
+  border:5px solid #E96250;
+  color:#E96250;
+}
+.complete{
+  text-align:center;
+}
+.time{
+  font-size:100rpx;
+  font-weight: lighter;
+  transition: font-size .3s;
+}
+.type{
+  text-align:center;
+}
+.type image{
+  width:350rpx;
+  height:350rpx;
+}
+button{
+  width:250rpx;
+  background-color:#E96250;
+  color:#FFF;
+  margin-top:50rpx;
+  border-radius:50rpx;
+  font-size:30rpx;
+}

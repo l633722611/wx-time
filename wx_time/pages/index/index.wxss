@@ -1,0 +1,71 @@
+.timeSet{
+  text-align:center;
+  font-size:35rpx;
+  font-weight:bold;
+  margin:100rpx 50rpx;
+}
+.task_text{
+  text-align:center;
+  margin:30rpx auto;
+  font-size:40rpx;
+}
+.task_text view:first-child{
+  font-weight:bold;
+}
+.task_desc{
+  font-size:30rpx;
+  margin-top:20rpx;
+  color:#999;
+}
+.cate{
+  display:flex;
+  width:660rpx;
+  flex-wrap:wrap;
+  margin:40rpx auto;
+}
+.cate image{
+  width:80rpx;
+  height:80rpx;
+}
+.cate_text{
+  font-size:30rpx;
+}
+.cate_item{
+  margin:20rpx 0;
+  text-align:center;
+  width:215rpx;
+  height:130rpx;
+}
+.cate_icon{
+  width:100%;
+  height:60rpx;
+}
+.cate_text{
+  height:20rpx;
+}
+.msg_input{
+  display:flex;
+  justify-content:center;
+  text-align:center;
+  margin:15rpx 0;
+}
+.cate_msg{
+  font-size:30rpx;  
+  border-bottom:1rpx solid #ddd;
+  width:450rpx;
+}
+.start{
+  width:300rpx;
+  height:90rpx;
+  border:2px solid #E96250;
+  border-radius:30rpx;
+  margin:20rpx auto;
+  line-height:90rpx;
+  text-align:center;
+  color:#E96250;
+}
+/* 选中样式 */
+.selected{
+  border-bottom:2px solid #E96250;
+  padding:4rpx;
+}

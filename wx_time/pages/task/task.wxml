@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="clock" wx:if="{{!complete}}">
+    <view class="time">{{min}}:{{sec}}</view>
+  </view>
+  <view wx:else class="complete">
+    <image src="http://127.0.0.1:3002/img/complete.gif"></image>
+    <view>恭喜你完成任务啦！</view>
+  </view>
+</view>
+<view class="type" wx:for="{{img}}" wx:key="{{index}}" wx:if="{{!complete}}">
+  <image src='{{item.img_url}}' wx:if="{{item.id==id}}"></image>
+</view>
+<button bindtap="stop">完成</button>
