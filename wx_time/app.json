@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/task/task",
+    "pages/login/login",
+    "pages/setting/setting",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#E96250",
+    "navigationBarTitleText": "番茄时钟",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#E96250",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/time.png",
+        "selectedIconPath": "images/time-active.png",
+        "text": "计时"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "iconPath": "images/set.png",
+        "selectedIconPath": "images/set-active.png",
+        "text": "设置"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath": "images/about.png",
+        "selectedIconPath": "images/about-active.png",
+        "text": "关于"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
